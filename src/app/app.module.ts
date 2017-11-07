@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BlogComponent } from './blog/blog.component';
     HeaderComponent,
     HomeComponent,
     ProjectsComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,
